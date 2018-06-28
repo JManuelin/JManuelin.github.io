@@ -1,14 +1,578 @@
+<!DOCTYPE html>
 <html>
-<style>
-    h2{
-        color: blue;
+    <head>
+        <script>
+            $('h3').on('click',()=>{
+alert(`OMG There are 250 likes! MOTHER OF GOD OMG!!! How??? Pls explain me bruddas. Okay, let's stop joking and thank you for all the support, everyone. For every dude who hit the like btn,for every dude who subscribed to me, for every dude who commented my code and helped me. Thanks dudes`)
+})
+        </script>
+        <style>
+            pre {
+    background: #1D1E33;
+    padding: 7px;
+    color: cyan;
+    font-family: Consolas,monospace;
+    font-weight: 300;
+    border-radius:5px;
+}
+h1 {font-size: 50px}
+body,a {
+    background:indigo;
+    color: white;
+    font-family: Segoe UI;
+}
+a {padding: 4px; text-decoration:none;}
+func {color: deepskyblue;}
+obj {color: gold;}
+str {color: lightgreen;}
+op {color: coral;}
+#red {background:red;}
+        </style>
+<script src=https://code.jquery.com/jquery-3.3.1.min.js></script>
+<h3 id=red>Important message!</h3>
+        <title>Page Title</title>
+    </head>
+    <body>
+<h1 align=center>Hello World in 50 Languages</h1>
+<h3>Links to info of some unusual languages</h3>
+<a href=http://trove42.com/introducing-pikachu-programming-language/>Pickachu Programming Language</a>
+<br />
+<a href=https://www.emojicode.org>EmojiCode</a>
+<br />
+<a href=https://g.co/kgs/o2S1R3>LOLCODE</a>
+<br />
+<a href=http://wiki.c2.com/?EtcLanguage>ETC</a>
+<br />
+<p>1. JavaScript</p>
+<pre><obj>console</obj>.<func>log</func>(<str>"Hello World"</str>)</pre>
+<p>2 + 3. Python + Lua</p>
+<pre><func>print</func>(<str>"Hello World"</str>)</pre>
+<p>4. C Language</p>
+<pre>#include {stdio.h}
+<op>int</op> <func>main</func>() {
+  <func>printf</func>(<str>"Hello, World!\n"</str>);
+  <op>return</op> 0;
+}</pre>
+<p>5. Go</p>
+<pre>
+<op>package</op> main
+
+<op>import</op> <str>"fmt"</str>
+
+<op>func</op> <func>main</func>() {
+    <obj>fmt</obj>.<func>Println</func>("Hello, World")
+}
+</pre>
+<p>6. COBOL</p>
+<pre>
+<op>IDENTIFICATION</op> DIVISION.
+<op>PROGRAM-ID</op>. hello-world.
+    <op>PROCEDURE</op> DIVISION.
+        <op>DISPLAY</op> <str>"Hello, world!"</str>
+        .
+</pre>
+<p>7. Dart</p>
+<pre>
+<func>main</func>() {
+  <func>print</func>(<str>'Hello World!'</str>);
+}
+</pre>
+<p>8. C#</p>
+<pre>
+<op>using</op> System;
+
+<op>class</op> Program
+{
+<op>static void</op> <func>Main</func>(<obj>string</obj>[] args)
+    {
+<obj>Console</obj>.<func>WriteLine</func>(<str>"Hello, world!"</str>);
     }
-</style>
-<body>
+}
+</pre>
+<p>9. Assembly</p>
+<pre>
+<op>global</op>  _main
+    <op>extern</op>  _printf
 
-<h2>HOLO AMIGUITOS xD</h2>
-<h3>MANUEL TU PAPIRIKI</h3>
+    <op>section</op> .text
+<func>_main</func>:
+    <op>push</op>    message
+    <op>call</op>    _printf
+    <op>add</op>     esp, 4
+    <op>ret</op>
+<func>message</func>:
+    db  <str>'Hello, World'</str>, 10, 0
+</pre>
+<p>10. Erlang</p>
+<pre>
+<func>-module</func>(hello).
+<func>-export</func>([hello_world/0]).
+
+<func>hello_world</func>() ->
+<obj>io</obj>:<func>fwrite</func>(<str>"hello, world\n"</str>).
+</pre>
+<p>11. Elixir</p>
+<pre>
+<obj>IO</obj>.<func>puts</func> <str>"Hello World!"</str>
+</pre>
+<p>12. F#</p>
+<pre>
+<op>open</op> <obj>System</obj>
+<obj>Console</obj>.<func>WriteLine</func>(<str>"Hello World!"</str>)
+</pre>
+<p>13. Fortran</p>
+<pre>
+<op>program</op> helloworld
+     <func>print</func> *, <str>"Hello world!"</str>
+<op>end program</op> helloworld
+</pre>
+<p>14. Java</p>
+<pre>
+<op>class</op> HelloWorldApp {
+<op>public static void</op> <func>main</func>(
+<obj>String</obj>[] args) {
+<obj>System</obj>.out.<func>println</func>
+(<str>"Hello World!"</str>);
+    }
+}
+</pre>
+<p>15. Lisp</p>
+<pre>
+(<func>print</func> <str>"Hello world"</str>)
+</pre>
+<p>16. Machine Code</p>
+<pre>
+b8    21 0a 00 00
+a3    0c 10 00 06
+b8    6f 72 6c 64
+a3    08 10 00 06
+b8    6f 2c 20 57
+a3    04 10 00 06
+b8    48 65 6c 6c
+a3    00 10 00 06
+b9    00 10 00 06
+ba    10 00 00 00
+bb    01 00 00 00
+b8    04 00 00 00
+cd    80
+b8    01 00 00 00
+cd    80
+</pre>
+<p>17 + 18. ML + Perl</p>
+<pre>
+<func>print</func> <str>"Hello World \n"</str>
+</pre>
+<p>19 + 20. Ruby + TCL</p>
+<pre>
+<func>puts</func> <str>'Hello World!'</str>
+</pre>
+<p>21 + 22. Swift + Scala</p>
+<pre>
+<func>println</func>(<str>"Hello World!"</str>)
+</pre>
+<p>23. ActionScript</p>
+<pre>
+<func>trace</func>(<str>"Hello World"</str>)
+</pre>
+<p>24. D Language</p>
+<pre>
+<op>import</op> std.stdio;
+<op>void</op> <func>main</func>() {
+<func>writeln</func> (<str>"Hello, World!"</str>);
+}
+</pre>
+<p>25. ETC Language</p>
+<pre>
+##X#
+</pre>
+<p>26. Frink</p>
+<pre>
+<func>println</func>[<str>"Hello World"</str>]
+</pre>
+<p>27. Latte</p>
+<pre>
+{<op>\def</op> <op>\hello</op><str>"Hello, World!"</str>}
+{<op>\head</op>
+{<op>\title</op> <op>\hello</op>}}
+{<op>\body</op> <op>\hello</op>}
+</pre>
+<p>28 + 29. Lingo + Roy (JS without brackets)</p>
+<pre>
+<func>alert</func> <str>"Hello World"</str>
+</pre>
+<p>30. VBScript</p>
+<pre>
+<obj>WScript</obj>.StdOut.<func>WriteLine</func> 
+<str>"Hello, World"</str>; 
+</pre>
+<p>31. Forth</p>
+<pre>
+<func>CR</func>.(<str>Hello, world!</str>)
+</pre>
+<p>32. Buzz</p>
+<pre>
+<func>log</func>(<str>"Hello World"</str>)
+</pre>
+<p>33. Clean</p>
+<pre>
+<op>module</op> hello
+<func>Start</func> :: <obj>String</obj>
+<func>Start</func> = <str>"Hello World \n"</str>
+</pre>
+<p>34. AWK</p>
+<pre>
+<op>BEGIN</op> {
+<func>print</func>(<str>"Hello World!"</str>)><str>"/dev/lp0"</str>
+}
+</pre>
+<p>35. BaCon</p>
+<pre>
+<op>READ</op> msg$
+<op>DATA</op><str>"Hello World!\n"</str>
+<op>OPEN</op> <str>"/dev/lp0"</str>
+<op>FOR</op> DEVICE <op>AS</op> printer
+PUTBYTE msg$ <op>TO</op>
+printer SIZE LEN(msg$)
+<op>CLOSE</op> DEVICE printer
+</pre>
+<p>36. Groovy</p>
+<pre>
+<op>new</op> <obj>File</obj>(
+<str>'/dev/lp0'</str>).<func>write</func>(<str>'Hello World!\n'</str>)
+</pre>
+<p>37. OCaml</p>
+<pre>
+<op>let</op> () =
+<op>let</op> oc = <func>open_out</func> <str>"/dev/lp0"</str> <op>in</op> <func>
+output_string</func> oc <str>
+"Hello world!\n"</str>;
+<func>close_out</func> oc ;;
+</pre>
+<p>38. Axe</p>
+<pre>
+<func>Disp</func> <str>"Hello world!"</str>,i
+</pre>
+<p>39. Eifel</p>
+<pre>
+<op>class</op> HELLO_WORLD
+<op>create make feature make do</op>
+<func>print</func>(<str>"Hello world!%N"</str>)
+<op>end</op>
+<op>end</op>
+</pre>
+<p>40 + 41. Fexl + Scratch</p>
+<pre>
+<func>say</func> <str>"Hello World"</str>
+</pre>
+<p>42. BrainF</p>
+<pre>
+++++++++++[>+>+++>++++>+++++++>
+++++++++>+++++++++>++
+++++++++>+++++++++++>+++++++++++
++<<<<<<<<<-]>>>>+.>>>
+>+..<.<++++++++.>>>+.<<+.
+<<<<++++.<+
++.>>>+++++++.>>>.+++.
+<+++++++.--------.<<<<<+.<+++.---.
+</pre>
+<p>43. EmojiCode</p>
+<pre>
+🏁 🍇
+😀 <str>🔤Hello world!🔤</str>
+🍉
+</pre>
+<p>44. Jacquard Loom (One of the longest Hello World messages)</p>
+<pre>
++---------------+
+| |
+| * * |
+|* * * * |
+|* * *|
+|* * *|
+|* * * |
+| * * * |
+| * |
++---------------+
+ 
++---------------+
+| |
+|* * * |
+|* * * |
+| * *|
+| * *|
+|* * * |
+|* * * * |
+| * |
++---------------+
+ 
++---------------+
+| |
+|* ** * * |
+|******* *** * |
+| **** * * ***|
+| **** * ******|
+| ****** ** * |
+| * * * * |
+| * |
++---------------+
+ 
++---------------+
+| |
+|******* *** * |
+|******* *** * |
+| ** *|
+|* * * *|
+|******* ** * |
+|******* *** * |
+| * |
++---------------+
+ 
++---------------+
+| |
+|******* *** * |
+|******* *** * |
+| * * * *|
+| * * * *|
+|******* ** * |
+|******* ** * |
+| * |
++---------------+
+ 
++---------------+
+| |
+|***** * *** * |
+|******* *** * |
+| * * * * |
+| * * * |
+|****** ** * |
+|****** ** * |
+| * |
++---------------+
+ 
++---------------+
+| |
+| * * * |
+|***** * ***** |
+|***** ** * ***|
+|***** ** * ***|
+|******* * ** |
+| * * * * |
+| * |
++---------------+
+ 
++---------------+
+| |
+| |
+| * * |
+| * * |
+| * |
+| * |
+| |
+| |
++---------------+
+</pre>
+<p>45. Limbo</p>
+<pre>
+implement Command;
+<op>include</op> <str>"sys.m"</str>;
+sys: Sys;
+<op>include</op> <str>"draw.m"</str>;
+<op>include</op> <str>"sh.m"</str>;
+<func>init</func>(nil: ref Draw-> Context,
+nil: list of string)
+{
+sys = load Sys Sys->PATH;
+sys-><func>
+print</func>(<str>"Hello world!\n"</str>);
+}
+</pre>
+<p>46. LOLCODE</p>
+<pre>
+HAI
+CAN HAS STDIO?
+VISIBLE <str>"Hello world!"</str>
+KTHXBYE
+</pre>
+<p>47. Pickachu (The longest one)</p>
+<pre>
+pikachu pika pikachu pika pika pi pi 
+pika pikachu pika pikachu pi pikachu 
+pi pikachu pi pika pi pikachu pikachu 
+pi pi pika pika pikachu pika pikachu 
+pikachu pi pika pi pika pika pi 
+pikachu pikachu pi pikachu pi pika 
+pikachu pi pikachu pika pikachu pi 
+pikachu pikachu pi pikachu pika pika 
+pikachu pi pikachu pi pi pikachu 
+pikachu pika pikachu pi pika pi pi 
+pika pika pikachu pikachu pi pi 
+pikachu pi pikachu
+pikachu pikachu pi pikachu
+pikachu pika pika pikachu pika 
+pikachu pikachu pika pika pikachu 
+pikachu pi pi pikachu pika pikachu 
+pika pika pi pika pikachu pikachu pi 
+pika pika pikachu pi pika pi pika pi 
+pikachu pi pikachu pika pika pi pi 
+pika pi pika pika pikachu pikachu 
+pika pikachu pikachu pika pi pikachu 
+pika pi pikachu pi pika pika pi 
+pikachu pika pi pika pikachu pi pi 
+pikachu pika pika pi pika pi pikachu
+pikachu pikachu pi pikachu
+pikachu pika pi pika pika pikachu 
+pika pikachu pi pikachu pi pi pika pi 
+pikachu pika pi pi pika pikachu pi 
+pikachu pi pi pikachu pikachu pika 
+pikachu pikachu pika pi pikachu pi 
+pika pikachu pi pikachu pika pika 
+pikachu pika pi pi pikachu pikachu 
+pika pika pikachu pi pika pikachu 
+pikachu pi pika pikachu pikachu pika 
+pi pi pikachu pikachu pi pikachu pi 
+pikachu pi pikachu pi pika pikachu pi 
+pikachu pika pikachu pi pika pi 
+pikachu pi pika pikachu pikachu pi 
+pikachu pika pi pikachu pikachu pi 
+pikachu pikachu pi pikachu pi pi 
+pikachu pi pikachu pika pikachu 
+pikachu pi pikachu pikachu pika pi pi 
+pika pikachu pika pikachu pi pi 
+pikachu pika pi pi pikachu pika pika 
+pi pika pika pikachu pika pikachu pi 
+pi pika pikachu pika pi pikachu 
+pikachu pi pikachu pika pikachu 
+pikachu pika pi pi pikachu pikachu pi 
+pika pikachu pi pikachu pika pikachu 
+pikachu pika pi pikachu pikachu pika 
+pikachu pi pikachu pika pika pi 
+pikachu pi pika pi pikachu pikachu pi 
+pikachu pi pika pikachu pikachu pi 
+pikachu pikachu pikachu pi pika 
+pikachu pi pika pika pi pi pika pi 
+pikachu pi pika pi pika pi pika 
+pikachu pika pi pi pikachu pi pikachu 
+pi pika pi pika pika pikachu pi 
+pikachu pikachu pikachu pi pikachu
+pikachu pi pikachu pika pikachu pi 
+pika pi pikachu pikachu pika pika pi 
+pi pikachu pi pika pi pikachu pi pika 
+pikachu pi pika pi pi pikachu pikachu 
+pika pika pikachu pikachu pi pi 
+pikachu pi pikachu pi pikachu pi pi 
+pikachu pikachu pi pikachu pi pikachu 
+pi pika pika pikachu pikachu pika pi 
+pika pikachu pi pikachu pi pi pika 
+pikachu pika pi pikachu pi pika pi pi 
+pikachu pikachu pika pika pikachu 
+pika pika pikachu pi pika pi pika 
+pikachu pi pika pikachu pika pi pika 
+pikachu pikachu pikachu pika pikachu
+pikachu pikachu pika pikachu pi pi 
+pikachu pi pikachu pika pika pi 
+pikachu pika pika pi pi pika pika 
+pikachu pi pi pikachu pi pika pi pika 
+pikachu pi pikachu pi pikachu pikachu 
+pi pi pika pika pi pika pika pi pika 
+pikachu pikachu pi pikachu pika pi pi 
+pika pi pi pikachu pikachu pika pi pi 
+pika pika pi pika pikachu pi pikachu 
+pi pi pika pi pika pika pikachu pika 
+pi pika pikachu pi pikachu pikachu pi 
+pi pika pi pika pika pikachu pikachu 
+pi pikachu pikachu pikachu pi pikachu
+pikachu pi pikachu pikachu pika 
+pikachu pikachu pika pika pikachu 
+pikachu pika pikachu pi pika pikachu 
+pika pika pi pikachu pi pi pika pi pi 
+pikachu pika pika pikachu pikachu 
+pika pikachu pikachu pi pika pi pi 
+pikachu pikachu pika pi pi pikachu 
+pikachu pika pikachu pika pi pikachu 
+pi pika pi pika pikachu pika pi 
+pikachu pi pikachu pikachu pi pika 
+pikachu pi pikachu pikachu pi pika pi 
+pikachu pikachu pi pikachu pika pika 
+pi pi pikachu pikachu pi pi pika pi 
+pi pikachu pika pikachu pikachu pika 
+pika pi pi pika pikachu pi pikachu pi 
+pi pika pi pika pi pi pika pikachu pi 
+pika pi pikachu pika pikachu pika pi 
+pi pika pi pi pikachu pi pikachu 
+pikachu pika pi pikachu pi pi pika pi 
+pikachu pi pi pika pi pi pikachu pika 
+pikachu pika pikachu pika pi pikachu 
+pikachu pi pi pika pika pikachu
+pikachu pikachu pi pikachu pikachu 
+pikachu pika pikachu
+</pre>
+<p>48. Setlang</p>
+<pre>
+set ! H
+set ! E
+set ! L
+set ! L
+set ! O
+set ! 32
+set ! W
+set ! O
+set ! R
+set ! L
+set ! D
+set ! 33
+</pre>
+<p>49. Befunge</p>
+<pre>
+52*"!dlroW ,eybdooG">:#,_@
+</pre>
+<p>50. Delphi</p>
+<pre>
+<op>program</op> ProjectHello;
+{$APPTYPE CONSOLE}
+<op>begin</op> <func>WriteLn</func>(<str>'Hello world!'</str>);
+<op>end</op>.
+</pre>
+<p>51 + 52. PHP + Bash</p>
+<pre>
+<func>echo</func> <str>"Hello World"</str>
+</pre>
+<p>53. C++</p>
+<pre>
+#include {iostream}
+<op>int</op> <func>main</func>() {
+<op>cout</op> << <str>"Hello World!"</str>
+<op>return</op> 0;
+}
+</pre>
+<p>54. Kotlin</p>
+<pre>
+<op>fun</op> <func>main</func>(args:<obj>Array</obj> {String}) 
+{
+<func>println</func>(<str>"Hello, world!"</str>);
+}
+</pre>
+<p>55. Zim</p>
+<pre>
+<func>out</func> <str>"Hello World"</str>
+</pre>
+<p>56. BCPL</p>
+<pre>
+<op>GET</op> <str>"libhdr"</str>
+<op>LET</op> <func>start</func>()= <op>VALOF</op>
+$(
+<func>writes</func>(<str>"Hello World*N"</str>)
+    <op>RESULTIS</op> 0
+)$
+</pre>
+<p>57. Beta</p>
+<pre>
+(#
+<op>do</op>
+    <str>"Hello World"</str>-><func>putLine</func>
+#)
+</pre>
+<p>Thanks for watching this code!</p>
+<p>I spent two hours doing that</p>
+<p>Hit the like btn pls!</p>
 </body>
-
-
 </html>
