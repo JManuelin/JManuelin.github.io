@@ -1,70 +1,87 @@
-﻿<header>
-	<section class="wrapper">
-		  <nav>
-			  <ul>
-				  <li><a href="#">Inicio</a></li>
-				  <li><a href="#">Tutoriales</a></li>
-				  <li><a href="#">Cursos</a></li>
-				  <li><a href="#">Preguntame algo</a></li>
-				  <li><a href="#">Contacto</a></li>
-			  </ul>
-	  </nav>
-	  </section>
-  </header>
-  
-  <section class="contenido wrapper">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus adipiscing commodo aliquet. Fusce bibendum orci magna, a pellentesque augue posuere sed. Ut bibendum magna tincidunt velit fermentum, eu laoreet arcu consectetur. Nullam nec enim sed justo fermentum sagittis. Nam varius dapibus risus, quis consectetur mauris. Praesent ut iaculis turpis. Phasellus congue tristique ligula et consequat.</p>
-  
-	<p>Vivamus leo neque, luctus ac dignissim non, vehicula ut diam. Morbi eu urna interdum, cursus tortor quis, aliquam quam. Aliquam quis tellus ante. Morbi aliquet quam sem, et molestie dolor aliquet sed. Vivamus vehicula turpis nunc, ut hendrerit ante pulvinar eu. Pellentesque consectetur risus sit amet nulla sagittis, sit amet condimentum nisl tristique. Aliquam sit amet arcu eget risus dapibus fringilla vitae quis nunc. Cras commodo laoreet nulla ac rutrum. Fusce quam felis, malesuada ut condimentum eu, vulputate sed justo. Duis ac rhoncus neque.</p>
-  
-	<p>Nunc congue vel turpis id interdum. Praesent gravida dapibus dui id fringilla. Suspendisse potenti. Morbi fringilla arcu non tempor faucibus. Aliquam convallis quam sem, id eleifend risus sodales id. Aliquam sed mi eu leo tempus ultricies. Fusce euismod, nibh in adipiscing eleifend, eros enim pharetra tellus, sed aliquam purus est nec nunc. Praesent egestas leo a aliquam scelerisque. Curabitur a tincidunt libero, vel pharetra neque. Fusce vel urna diam. Duis in dui at quam mollis tristique eu non justo. Donec imperdiet nisl non faucibus bibendum. Suspendisse potenti.</p>
-  
-	<p>Vestibulum tempor tristique dignissim. Ut fermentum porttitor massa, non dictum risus. Proin aliquam, metus non pretium vehicula, ipsum ligula placerat est, ut pharetra ipsum sapien et nisi. Aliquam condimentum neque vitae felis elementum fringilla quis eu ante. Aenean dictum sem orci, commodo elementum urna fringilla sit amet. Integer dui elit, consectetur eget ante quis, eleifend egestas tellus. Suspendisse venenatis urna non turpis volutpat, eget vehicula ipsum ultricies. Fusce at rutrum nulla, id vulputate mi. Nunc cursus risus a sapien rutrum, eu dapibus nunc elementum. Sed id tincidunt tortor. Donec ipsum nulla, aliquet eu erat eu, sodales luctus lorem.</p>
-  
-	<p>Nullam ut sem lectus. Fusce accumsan vestibulum est porttitor egestas. Curabitur ac ultricies quam. Integer elementum tellus vitae nisl luctus, fringilla luctus metus congue. Duis nec diam posuere, pellentesque urna nec, rhoncus ligula. Vivamus pulvinar id nulla eget sodales. Nunc iaculis nibh massa, sed aliquam diam ornare vel. Suspendisse potenti. Integer nec ante turpis. Vivamus eleifend diam et porttitor pharetra. Vivamus tempus pretium elit, sit amet molestie diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce viverra posuere porta. Maecenas ut blandit massa, ut ultrices purus. Sed at porttitor urna. </p>
-  </section>
+﻿<body>
+	<header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="submenu">
+						<li><a href="#">Servicio #1</a></li>
+						<li><a href="#">Servicio #2</a></li>
+						<li><a href="#">Servicio #3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	
+	*{
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	body{
+		background: #313D52;
+	}
+	
+	header{
+		width: 100%;
+	}
+	
+	.navegacion{
+		width: 1000px;
+		margin: 30px auto;
+		background: #fff;
+	}
+	
+	.navegacion ul{
+		list-style: none;
+	}
+	
+	.menu > li{
+		position: relative;
+		display: inline-block;
+	}
+	
+	.menu > li > a{
+		display: block;
+		padding: 15px 20px;
+		color: #353535;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	
+	.menu li a:hover{
+		color: #CE7D35;
+		transition: all .3s;
+	}
+	
+	/* Submenu*/
+	
+	.submenu{
+		position: absolute;
+		background: #333333;
+		width: 120%;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity 1.5s;
+	}
+	
+	.submenu li a{
+		display: block;
+		padding: 15px;
+		color: #fff;
+		font-family: 'Open sans';
+		text-decoration: none;
+	}
+	
+	.menu li:hover .submenu{
+		visibility: visible;
+		opacity: 1;
+	}
+</header>
 
-  
-* {
-	padding: 0;
-	margin: 0;
-  }
-  p {
-	margin-bottom: 20px;
-  }
-  .wrapper {
-	width: 80%;
-	margin: auto;
-	overflow:hidden;
-  }
-  header {
-	background: rgba(0,0,0,0.9);
-	width: 100%;
-	position: fixed;
-	z-index: 10;
-  }
-  
-  nav {
-	float: left; /* Desplazamos el nav hacia la izquierda */
-  }
-  nav ul {
-	list-style: none;
-	overflow: hidden; /* Limpiamos errores de float */
-  }
-  nav ul li {
-	float: left;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-  }
-  nav ul li a {
-	display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-	padding: 20px;
-	color: #fff;
-	text-decoration: none;
-  }
-  nav ul li:hover {
-	background: #3ead47;
-  }
-  .contenido {
-	padding-top: 80px;
-  }
+</body>
