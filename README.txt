@@ -1,53 +1,40 @@
+======================================================================
 
-TITLE: 
-Listing - 100% Fully Responsive Free HTML5 Bootstrap Template
+	  Website Template Name: Real Estate
+	  Website Template URI: http://www.templatemonster.com/free-templates/free-website-template-real-estate.php
+	  Version: 1
+	  Author: TemplateMonster.com Team
+	  Author URI: http://www.templatemonster.com/
 
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+======================================================================
 
 
-CREDITS:
+   +++ Be sure to visit TemplateMonster.com for more website templates +++
 
-Bootstrap
-http://getbootstrap.com/
 
-jQuery
-http://jquery.com/
+   +++ License +++
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+  Real Estate website template is 100% FREE!  We kindly ask you to
+   leave the footer links intact. Thank you so much! :)
 
-Modernizr
-http://modernizr.com/
+   
 
-Google Fonts
-https://www.google.com/fonts/
+   +++ INSTALLATION & EDITING +++
 
-Google Maps
-https://maps.google.com
+   - Copy all the files from the 'site' directory to the appropriate (usually 'www' or 'public_html') directory on your hosting. That's it.
+   - This template may be edited with any HTML editor. If you do not know where to get one, you may consider trying NotePad++. It can be downloaded at notepad-plus.sourceforge.net and it's free.
 
-Icomoon
-https://icomoon.io/app/
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-animate.css
-http://daneden.me/animate
+   +++ HOW TO PUT YOUR OWN LOGO+++
 
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+   You need to replace logo.png (it is located in site>images>logo.png) with your own .png file. 
 
-Superfish Menu
-http://users.tpg.com.au/j_birch/plugins/superfish/examples/
 
-hoverIntent
-https://github.com/briancherne/jquery-hoverIntent
+   +++ IMPORTANT NOTICE +++
 
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
+   TemplateMonster doesn't provide support services on free templates - including this one. We only provide support for the products that are being purchased from TemplateMonster.
+   Our free templates are produced according to the latest web standards and we’ve been trying to make the process of working with them as easy as possible, so for people with minimum web develpment 
+   experience it should be easy to work with them. 
 
+   
