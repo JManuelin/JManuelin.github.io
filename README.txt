@@ -1,7 +1,7 @@
 ======================================================================
 
-	  Website Template Name: Real Estate
-	  Website Template URI: http://www.templatemonster.com/free-templates/free-website-template-real-estate.php
+	  Website Template Name: Airlines
+	  Website Template URI: http://www.templatemonster.com/free-templates/free-website-template-airlines.php
 	  Version: 1
 	  Author: TemplateMonster.com Team
 	  Author URI: http://www.templatemonster.com/
@@ -14,7 +14,7 @@
 
    +++ License +++
 
-  Real Estate website template is 100% FREE!  We kindly ask you to
+   Airlines website template is 100% FREE!  We kindly ask you to
    leave the footer links intact. Thank you so much! :)
 
    

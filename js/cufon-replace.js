@@ -1,2 +1,3 @@
-Cufon.replace('#menu a, .nivo-caption strong, h2, h3, h4, .date, .call', { fontFamily: 'Didact Gothic', hover:true });
+Cufon.replace('#slogan', { fontFamily: 'Cabin', hover:true, textShadow:'#1063e4 1px 1px' });
+Cufon.replace('h2, #menu a, h3, h4', { fontFamily: 'Cabin', hover:true });
 
